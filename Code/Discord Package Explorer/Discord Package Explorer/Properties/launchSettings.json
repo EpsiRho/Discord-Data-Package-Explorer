@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Discord Package Explorer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Discord Package Explorer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
