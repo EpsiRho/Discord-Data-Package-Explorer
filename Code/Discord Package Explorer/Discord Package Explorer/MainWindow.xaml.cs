@@ -81,7 +81,7 @@ namespace Discord_Package_Explorer
                 AvatarHashRun.Text = DataPackageManager.UserAccount.avatar_hash;
                 HasMobileRun.Text = DataPackageManager.UserAccount.has_mobile.ToString();
                 NeedsEmailVerificationRun.Text = DataPackageManager.UserAccount.needs_email_verification.ToString();
-                PremiumUntilRun.Text = DataPackageManager.UserAccount.premium_until.ToString();
+                try { PremiumUntilRun.Text = DataPackageManager.UserAccount.premium_until.ToString(); } catch (Exception) { }
                 FlagsRun.Text = DataPackageManager.UserAccount.flags.ToString();
                 PhoneRun.Text = DataPackageManager.UserAccount.phone;
                 IPRun.Text = DataPackageManager.UserAccount.ip;
